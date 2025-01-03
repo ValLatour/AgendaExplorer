@@ -4,6 +4,15 @@
 # Log file
 *.log
 
+# Json file
+*.json
+
+#credential files
+*redential*
+
+#.gradle files
+.gradle
+
 # BlueJ files
 *.ctxt
 

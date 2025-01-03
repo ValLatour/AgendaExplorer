@@ -25,11 +25,11 @@ import java.util.List;
 /* class to demonstrate use of Calendar events list API */
 public class CalendarQuickstart {
 
-  public static DateTime dayFromNow(int d){
+  /*public static DateTime dayFromNow(int d){
     long test = now.getValue()+d*24*60*60*1000;
 
     return new DateTime(test);
-  }
+  }*/
 
   /**
    * Application name.
