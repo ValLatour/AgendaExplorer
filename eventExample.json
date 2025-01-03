@@ -1,0 +1,22 @@
+
+{"created":"2025-01-03T17:21:32.000Z",
+"creator":{"email":"latour.valentin.12.09.1999@gmail.com","self":true},
+"description":"faux event",
+"end":{"dateTime":"2025-01-04T10:30:00.000+01:00","timeZone":"Europe/Madrid"},
+"etag":"\"3471851744938000\"",
+"eventType":"default",
+"htmlLink":"https://www.google.com/calendar/event?eid=MGtwN2MwajAxN2tnaWJyMjlhbjlvNWFmdDYgbGF0b3VyLnZhbGVudGluLjEyLjA5LjE5OTlAbQ",
+"iCalUID":"0kp7c0j017kgibr29an9o5aft6@google.com",
+"id":"0kp7c0j017kgibr29an9o5aft6",
+"kind":"calendar#event",
+"organizer":{"email":"latour.valentin.12.09.1999@gmail.com","self":true},
+
+
+"reminders":{"overrides":[{"method":"popup","minutes":30}],"useDefault":false},
+
+
+"sequence":1,"start":{"dateTime":"2025-01-04T10:00:00.000+01:00","timeZone":"Europe/Madrid"},
+"status":"confirmed",
+"summary":"c'est pas vrai",
+"transparency":"transparent",
+"updated":"2025-01-03T17:37:52.469Z"}
