@@ -68,7 +68,7 @@ public class CalendarManager extends AndroidNonvisibleComponent {
     /**
      * Directory to store authorization tokens for this application.
      */
-    private static String TOKENS_DIRECTORY_PATH = "tokens";
+    private static String TOKENS_DIRECTORY_PATH = "YOUR_TOKEN_DIRECTORY_PATH";
 
     /**
      * Constructor that customizes the application name.
