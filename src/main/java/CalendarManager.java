@@ -228,7 +228,7 @@ public class CalendarManager{
      *  Shows all the recorded event as jsons each in a line (separated by "\n").
      * The first line gives context.
      */
-    private String toString(){
+    public String toString(){
         if (items ==null){
             return "Calendar not initialised";
         }
@@ -244,6 +244,14 @@ public class CalendarManager{
             }
             return msg;
         }
+    }
+
+    /**
+     *  Create a DateTime object representing now + ms milliseconds.
+     * @param ms time in milliseconds.
+     */
+    public static DateTime timeFromNow(int ms){
+        return new DateTime(System.currentTimeMillis()+ms);
     }
 
 }
