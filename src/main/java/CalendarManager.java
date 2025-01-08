@@ -147,6 +147,7 @@ public class CalendarManager{
             .setSingleEvents(true)
             .execute();
         items = events.getItems();
+        HTTP_TRANSPORT.shutdown();
     }
 
     /**
@@ -227,7 +228,7 @@ public class CalendarManager{
      *  Shows all the recorded event as jsons each in a line (separated by "\n").
      * The first line gives context.
      */
-    private String ShowEvent(){
+    private String toString(){
         if (items ==null){
             return "Calendar not initialised";
         }
