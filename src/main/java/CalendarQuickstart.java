@@ -91,8 +91,9 @@ public class CalendarQuickstart {
 
     // List the next 10 events from the primary calendar.
     DateTime now = new DateTime(System.currentTimeMillis());
+    DateTime future = new DateTime(System.currentTimeMillis()+24*60*60*1000);
     Events events = service.events().list("primary")
-        .setMaxResults(10)
+        .setTimeMax(future)
         .setTimeMin(now)
         .setOrderBy("startTime")
         .setSingleEvents(true)

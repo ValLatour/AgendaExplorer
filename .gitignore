@@ -13,8 +13,13 @@
 #.gradle files
 .gradle
 
+#.build files
+.build
+
 # BlueJ files
 *.ctxt
+
+example.java
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
